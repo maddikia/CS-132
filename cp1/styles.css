@@ -1,0 +1,109 @@
+ /*
+    Name: Maddie Ramos
+    CS 132 Spring 2024
+    Date: April 13th, 2024
+    This is the styles.css page for my personal website.
+    It's a little messy, sorry, I had to rush for the deadline.
+*/
+
+body {
+    margin: 0px;
+    background-color: #202023;
+    font-family: "Fragment Mono", monospace;
+    font-weight: 500;
+}
+
+main {
+    margin: 10% 20%;
+    color: #D5E1A3;
+}
+
+h1, h2, h3 {
+    font-family: "Varela Round", sans-serif;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3, .subheading, .project-blurb {
+    margin-top: 0px;
+}
+
+a {
+    color: #D5E1A3
+}
+
+p, a:hover {
+    color:#faffea;
+}
+
+#intro, .socials, #projects, .project-links {
+    display: flex;
+}
+
+#intro {
+    align-items: center;
+}
+
+#intro-content {
+    flex: 1;
+}
+
+#headshot {
+    width: 200px;
+}
+
+.socials {
+    margin-right: 5px;
+}
+
+.socials a {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.button {
+    background-color: #D5E1A3;
+    color: #202023;
+    text-decoration: none;
+}
+
+#res-btn {
+    margin: 5px 10px 5px 0px;
+    border-radius: 5px;
+    padding: 2px 10px;
+    font-size: 18px;
+}
+
+footer p, .subheading {
+    color: #7d7e75;
+}
+
+footer p {
+    text-align: center;
+}
+
+#projects {
+    margin-top: 15px;
+}
+
+.project-blurb {
+    flex: 1;
+    background-color: rgba(212, 225, 162, .1);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.project-blurb p {
+    font-size: 14px;
+}
+
+.project-btn {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}

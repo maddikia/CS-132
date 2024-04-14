@@ -1,0 +1,35 @@
+ /*
+    Name: Maddie Ramos
+    CS 132 Spring 2024
+    Date: April 13th, 2024
+    These are some additonal styles for my Projects page.
+*/
+
+main {
+    margin: 10%;
+}
+
+.project-row {
+    display: flex;
+}
+
+.project {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.project-img {
+    max-width: 300px;
+}
+
+.project-tags {
+    display: flex;
+}
+
+.project-tags p {
+    margin: 10px 10px 10px 0px;
+    background-color: rgba(212, 225, 162, .5);
+    color: #202023;
+    padding: 1px 5px;
+    text-transform: uppercase;
+}
