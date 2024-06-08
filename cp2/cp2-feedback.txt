@@ -1,0 +1,19 @@
+1. What have you learned and applied in CP 2 since CP 1?
+
+I learned about how to integrate JavaScript into my sites! I'd done this in the 
+past, but I never formally learned and, and it was a really good refresher and 
+taught be better code style as well. 
+
+2. To what extent would you like feedback in CP 2 (e.g. thorough, particular areas of HTML/CSS/JS/UI)?
+
+Whatever extent you want. I'm kind of rushing my assignments right now becauseI was
+sick for like half the term and spent a lot of time on Ditch Day, so I'm 
+not really going to be able to make any more changes to this during the class.
+
+That said, I'm happy to hear any feedback to have, since I do plan to make 
+more sites in the future and there's a lot of things I wanted to do in this 
+class that I didn't get to.
+
+3. Anything else you would like the grader to know?
+
+Not really, see above. 

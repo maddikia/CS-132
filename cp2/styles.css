@@ -1,0 +1,65 @@
+ /*
+    Name: Maddie Ramos
+    CS 132 Spring 2024
+    Date: June 7, 2024
+    This is the styles.css page for my Harry Potter typing game.
+*/
+
+body {
+    background-color: #202023;
+    color: #D5E1A3;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+}
+
+main {
+    margin: 10% 20%;
+}
+
+#game-view, #length-opt, #gen-crests {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+#game-view {
+    align-items: center;
+    flex-direction: column;
+}
+
+button.selected {
+    background-color: #D5E1A3;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 11pt;
+}
+
+#gen-crests {
+    flex-wrap: wrap;
+}
+
+#gen-crests img {
+    max-width: 50px;
+}
+
+#logo {
+    width: 400px;
+}
+
+#crests {
+    border-top: 3px solid #D5E1A3;
+    margin-top: 20px;
+}

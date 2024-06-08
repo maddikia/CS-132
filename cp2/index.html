@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+ <!--
+     Name: Maddie Ramos
+     CS 132 Spring 2024
+     Date: June 7th, 2024
+     This is the index.html page for a Harry Potter-themed typing test.
+     It includes a typing test, which reports wpm on completion.
+
+     You do have to get 100% accuracy to win right now, so feel free
+     to copy paste for testing (just not too fast!).
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Harry Potter Typing Test</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="utils.js"></script>
+    <script defer src="typing-test.js"></script>
+</head>
+
+<body>
+    <main>
+        <!-- Header -->
+        <header>
+            <!-- Source: https://belmontpubliclibrary.net/ -->
+            <img id="logo" src="imgs/logo.png" alt="Harry Potter logo">
+            <h1>Harry Potter Typing Test</h1>
+            <p>Test your typing speed with quotes from the Harry Potter series!</p>
+        </header>
+
+        <!-- Typing Test -->
+        <!-- NOTE: I used the same general format as HW2 for this, 
+             since it was similar to what I was going for. -->
+        <section id="game-view">
+
+            <!-- Select "Difficulty" -->
+            <div id="length-opt">
+                <button value="easy" class="selected">Easy (Short Paragraph)</button>
+                <button value="hard">Hard (Full Paragraph)</button>
+            </div>
+
+            <!-- Game -->
+            <p id="quote"></p>
+            <textarea id="input" placeholder="Start typing..."></textarea>
+            <button id="start-btn">START</button>
+            <button id="reset-btn" class="hidden">RESET</button>
+
+            <!-- Results -->
+            <p id="result" class="hidden"></p>
+        </section>
+
+        <section id="crests">
+            <p>Generate house crests for fun!</p>
+            <button id="gen-btn">Add Crest</button>
+            <div id="gen-crests">
+            <!-- All crests sourced from: https://www.wizardingworld.com/ -->
+            </div>
+        </section>
+    </main>
+</body>
+</html>
