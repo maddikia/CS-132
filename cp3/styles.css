@@ -1,0 +1,36 @@
+/*
+    Name: Maddie Ramos
+    CS 132 Spring 2024
+    Date: June 8, 2024
+    This is the styles.css page for the D&D race selection tool.
+*/
+
+body, select {
+    font-family: "Roboto Mono", monospace;
+}
+
+body {
+    color: #BB0F0E;
+    text-align: center;
+    margin: 10% 20%;
+}
+
+#card {
+    border-radius: 20px;
+    border: 2px solid #BB0F0E;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#card > p {
+    color: #000000;
+}
+
+select {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+footer p, a {
+    color: #7d7e75;
+}

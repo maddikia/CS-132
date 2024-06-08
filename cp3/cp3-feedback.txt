@@ -1,0 +1,16 @@
+1. What have you learned and applied in CP 3 since CP 2?
+
+I learned a lot about working with APIs, and got to brush up on using them
+in combination with the other skills we've been building this term. I looked
+through a lot of different APIs and, while I ended up using a pretty simple one,
+I feel like I learned a lot about how to work with them in general.
+
+2. To what extent would you like feedback in CP 3 (e.g. thorough, particular areas of HTML/CSS/JS/UI)?
+
+I'm turning these in pretty late, so I don't really mind what kind of feedback 
+you choose to give me. I'm always open to any feedback you have, though, it 
+just doesn't necessarily have to be super thorough.
+
+3. Anything else you would like the grader to know?
+
+Not really—-my project for this one is pretty simple. 
